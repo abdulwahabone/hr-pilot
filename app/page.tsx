@@ -53,9 +53,9 @@ export default function LandingPage() {
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
           <div className="flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-sm font-bold text-primary-foreground">
-              HB
+              HP
             </div>
-            <span className="text-lg font-semibold">HR Boleh</span>
+            <span className="text-lg font-semibold">HR Pilot</span>
           </div>
           <Link href="/login" className={cn(buttonVariants())}>
             Log in
@@ -76,7 +76,7 @@ export default function LandingPage() {
               Built for modern software teams
             </div>
             <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-balance md:text-6xl">
-              HR, made <span className="text-primary">boleh</span>.
+              HR, on <span className="text-primary">autopilot</span>.
             </h1>
             <p className="max-w-xl text-lg text-muted-foreground text-balance">
               One simple platform for your team&apos;s leaves, payroll, and expense claims - so HR
@@ -137,7 +137,7 @@ export default function LandingPage() {
               Everything your team needs, in one dashboard
             </h2>
             <p className="mt-4 text-muted-foreground">
-              From applying for leave to checking a payslip, HR Boleh keeps every routine HR task
+              From applying for leave to checking a payslip, HR Pilot keeps every routine HR task
               a couple of clicks away.
             </p>
           </div>
@@ -179,9 +179,9 @@ export default function LandingPage() {
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 text-sm text-muted-foreground sm:flex-row md:px-6">
           <div className="flex items-center gap-2">
             <div className="flex h-6 w-6 items-center justify-center rounded-md bg-primary text-[10px] font-bold text-primary-foreground">
-              HB
+              HP
             </div>
-            <span>HR Boleh &copy; {new Date().getFullYear()}</span>
+            <span>HR Pilot &copy; {new Date().getFullYear()}</span>
           </div>
           <span>A practice HR SaaS project.</span>
         </div>

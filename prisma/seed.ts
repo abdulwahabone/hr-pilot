@@ -20,7 +20,7 @@ type EmployeeSeed = {
 const ADMIN = {
   name: "Nurul Huda (HR Admin)",
   username: "admin",
-  email: "admin@hrboleh.com",
+  email: "admin@hrpilot.com",
   jobTitle: "HR Administrator",
   department: "Human Resources",
   dateJoined: "2021-01-11",
@@ -101,7 +101,7 @@ async function main() {
     const user = await prisma.user.create({
       data: {
         name: emp.name,
-        email: `${emp.username}@hrboleh.com`,
+        email: `${emp.username}@hrpilot.com`,
         username: emp.username,
         passwordHash: hash(EMPLOYEE_PASSWORD),
         role: "EMPLOYEE",

@@ -67,10 +67,10 @@ export function LoginForm() {
       <Card>
         <CardHeader className="space-y-1 text-center">
           <div className="mx-auto mb-2 flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-sm font-bold text-primary-foreground">
-            HB
+            HP
           </div>
           <CardTitle className="text-2xl">Welcome back</CardTitle>
-          <CardDescription>Log in to your HR Boleh workspace</CardDescription>
+          <CardDescription>Log in to your HR Pilot workspace</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">

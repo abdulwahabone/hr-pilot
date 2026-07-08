@@ -1,4 +1,4 @@
-# HR Boleh
+# HR Pilot
 
 A practice HR SaaS app built with Next.js. One landing page, a simple login, and a dashboard with
 four modules: **Leaves**, **Payroll**, **Claims**, and **Settings** - seeded with an admin account

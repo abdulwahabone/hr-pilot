@@ -42,9 +42,9 @@ export function Topbar({ user }: { user: SafeUser }) {
           <SheetContent side="left" className="w-64 border-sidebar-border bg-sidebar p-0 text-sidebar-foreground">
             <SheetHeader className="h-16 flex-row items-center gap-2 px-6">
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-sidebar-primary text-sm font-bold text-sidebar-primary-foreground">
-                HB
+                HP
               </div>
-              <SheetTitle className="text-sidebar-foreground">HR Boleh</SheetTitle>
+              <SheetTitle className="text-sidebar-foreground">HR Pilot</SheetTitle>
             </SheetHeader>
             <div className="px-4 py-4">
               <NavLinks onNavigate={() => setOpen(false)} />

@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HR Boleh - HR made simple",
+  title: "HR Pilot - HR made simple",
   description: "The all-in-one HR platform for leaves, payroll, claims and more.",
 };
 
