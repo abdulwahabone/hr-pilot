@@ -15,11 +15,14 @@ jobs:
   preview:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    env:
+      DATABASE_URL: file:./dev.db
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: '20', cache: npm }
       - run: npm ci
+      - run: npx prisma generate && npx prisma migrate deploy
       - run: npm run build
       - name: Seed data
         run: npm run seed
