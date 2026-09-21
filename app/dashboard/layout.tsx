@@ -10,7 +10,7 @@ export default async function DashboardLayout({ children }: { children: React.Re
   }
 
   return (
-    <div className="flex min-h-screen bg-muted/30">
+    <div className="flex min-h-screen bg-muted/60">
       <Sidebar />
       <div className="flex flex-1 flex-col">
         <Topbar user={user} />
